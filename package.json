@@ -1,6 +1,6 @@
 {
   "name": "@bybit-wallet/aptos-wallet-adapter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Official Bybit Wallet Adapter for Aptos",
   "author": "bybit-wallet",
   "main": "./dist/index.js",
@@ -24,6 +24,10 @@
   },
   "publishConfig": { 
     "registry":"https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bybit-web3/aptos-wallet-adapter"
   },
   "devDependencies": {
     "tsup": "^8.0.1",
